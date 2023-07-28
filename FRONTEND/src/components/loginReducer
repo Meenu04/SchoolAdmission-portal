@@ -1,0 +1,23 @@
+// reducers/login.js
+
+const initialState = {
+    email: '',
+    pass: '',
+    name: '',
+  };
+  
+  const loginReducer = (state = initialState, action) => {
+    switch (action.type) {
+      case 'SET_EMAIL':
+        return { ...state, email: action.payload };
+      case 'SET_PASS':
+        return { ...state, pass: action.payload };
+      case 'SET_NAME':
+        return { ...state, name: action.payload };
+      default:
+        return state;
+    }
+  };
+  
+  export default loginReducer;
+  

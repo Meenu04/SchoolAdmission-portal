@@ -1,0 +1,47 @@
+/* .split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  } */
+  
+/* 
+  .left {
+    left: 0;
+    background-color: white;
+  }
+
+  .right {
+    right: 0;
+    background-color: white;
+  } */
+  
+
+  .cent {
+   
+    height: 100vh;
+    background-image: url(https://img.freepik.com/free-vector/education-pattern-background-doodle-style_53876-115365.jpg?size=626&ext=jpg&ga=GA1.1.283105248.1688981036&semt=sph) ;
+    
+  }
+  
+  /* .centered img {
+    width: 750px;
+    height:900px;
+    object-fit: fill;
+    
+  } */
+  .design
+  {
+     background-color: white;
+    box-shadow: 2px 2px 4px gray;
+    position: relative;
+    left: 10%;
+    top: 50px;
+    border-radius: 10px;
+    width:400px;
+    height:600px;
+    padding: 20px;
+  }
